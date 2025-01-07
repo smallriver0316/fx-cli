@@ -10,7 +10,7 @@
 
 int main(int argc, char **argv)
 {
-  CLI::App app{"Exchange a given number with specified format"};
+  CLI::App app{"Exchange a given value in currency with specified format"};
   argv = app.ensure_utf8(argv);
 
   // add version output
